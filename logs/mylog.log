@@ -1,0 +1,191 @@
+2023-04-07T14:35:31.961+05:30  INFO 16912 --- [main] com.example.backend.CVMakerApplication   : Starting CVMakerApplication using Java 19.0.1 with PID 16912 (D:\Projects\cv-maker\target\classes started by shubh in D:\Projects\cv-maker)
+2023-04-07T14:35:31.971+05:30  INFO 16912 --- [main] com.example.backend.CVMakerApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-07T14:35:32.992+05:30  INFO 16912 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-04-07T14:35:33.003+05:30  INFO 16912 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-07T14:35:33.003+05:30  INFO 16912 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-04-07T14:35:33.083+05:30  INFO 16912 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-07T14:35:33.084+05:30  INFO 16912 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1034 ms
+2023-04-07T14:35:33.411+05:30  INFO 16912 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-04-07T14:35:33.418+05:30  INFO 16912 --- [main] com.example.backend.CVMakerApplication   : Started CVMakerApplication in 1.842 seconds (process running for 2.507)
+2023-04-07T14:35:45.565+05:30  INFO 16912 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-07T14:35:45.565+05:30  INFO 16912 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-07T14:35:45.566+05:30  INFO 16912 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-07T14:35:45.680+05:30  INFO 16912 --- [http-nio-8081-exec-1] c.e.b.controller.CVMakerController       : Creating CV based on rquest: User(firstName=Shubham, lastName=Sharma, designation=Senior Software Engineer (4 years Exp.), currentCompany=JP Morgan Chase, yearsOfExperience=August 2021- September 2021, email=shubhamsharma5170@gmail.com, mobile=9828886157, linkedInUrl=, projectsWorkedUpon=[com.example.backend.model.Project@204fc26, com.example.backend.model.Project@253507c7, com.example.backend.model.Project@4f576fa0, com.example.backend.model.Project@2ef03d9f, com.example.backend.model.Project@b3011ab], educationalDetails=[com.example.backend.model.Education@6362435, com.example.backend.model.Education@7268613c, com.example.backend.model.Education@5ddbb62b], listOfCertifications=[com.example.backend.model.Certification@56ed5972, com.example.backend.model.Certification@614dc816, com.example.backend.model.Certification@501d3482], skills=[com.example.backend.model.Skill@5077aa44, com.example.backend.model.Skill@6c6d5ff1, com.example.backend.model.Skill@63ef3712, com.example.backend.model.Skill@5a6fa6c9, com.example.backend.model.Skill@3727024a, com.example.backend.model.Skill@31334188, com.example.backend.model.Skill@2b7ea71b, com.example.backend.model.Skill@c000553, com.example.backend.model.Skill@33a73cb, com.example.backend.model.Skill@282e5d25, com.example.backend.model.Skill@76367144, com.example.backend.model.Skill@7a90d84c], hobbies=[])
+2023-04-07T14:35:49.498+05:30  INFO 16912 --- [http-nio-8081-exec-1] c.e.b.controller.CVMakerController       : Created CV successfully
+2023-04-07T14:38:38.340+05:30  INFO 8108 --- [main] com.example.backend.CVMakerApplication   : Starting CVMakerApplication using Java 19.0.1 with PID 8108 (D:\Projects\cv-maker\target\classes started by shubh in D:\Projects\cv-maker)
+2023-04-07T14:38:38.342+05:30  INFO 8108 --- [main] com.example.backend.CVMakerApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-07T14:38:39.219+05:30  INFO 8108 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-04-07T14:38:39.228+05:30  INFO 8108 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-07T14:38:39.228+05:30  INFO 8108 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-04-07T14:38:39.305+05:30  INFO 8108 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-07T14:38:39.305+05:30  INFO 8108 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 916 ms
+2023-04-07T14:38:39.592+05:30  INFO 8108 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-04-07T14:38:39.600+05:30  INFO 8108 --- [main] com.example.backend.CVMakerApplication   : Started CVMakerApplication in 1.563 seconds (process running for 2.122)
+2023-04-07T14:38:54.379+05:30  INFO 8108 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-07T14:38:54.379+05:30  INFO 8108 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-07T14:38:54.380+05:30  INFO 8108 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-07T14:40:15.162+05:30  INFO 13888 --- [main] com.example.backend.CVMakerApplication   : Starting CVMakerApplication using Java 19.0.1 with PID 13888 (D:\Projects\cv-maker\target\classes started by shubh in D:\Projects\cv-maker)
+2023-04-07T14:40:15.165+05:30  INFO 13888 --- [main] com.example.backend.CVMakerApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-07T14:40:16.062+05:30  INFO 13888 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-04-07T14:40:16.070+05:30  INFO 13888 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-07T14:40:16.070+05:30  INFO 13888 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-04-07T14:40:16.140+05:30  INFO 13888 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-07T14:40:16.141+05:30  INFO 13888 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 916 ms
+2023-04-07T14:40:16.416+05:30  INFO 13888 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-04-07T14:40:16.425+05:30  INFO 13888 --- [main] com.example.backend.CVMakerApplication   : Started CVMakerApplication in 1.573 seconds (process running for 2.103)
+2023-04-07T14:40:18.465+05:30  INFO 13888 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-07T14:40:18.466+05:30  INFO 13888 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-07T14:40:18.466+05:30  INFO 13888 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-04-07T14:41:21.714+05:30  INFO 20880 --- [main] com.example.backend.CVMakerApplication   : Starting CVMakerApplication using Java 19.0.1 with PID 20880 (D:\Projects\cv-maker\target\classes started by shubh in D:\Projects\cv-maker)
+2023-04-07T14:41:21.716+05:30  INFO 20880 --- [main] com.example.backend.CVMakerApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-07T14:41:22.574+05:30  INFO 20880 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-04-07T14:41:22.582+05:30  INFO 20880 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-07T14:41:22.582+05:30  INFO 20880 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-04-07T14:41:22.651+05:30  INFO 20880 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-07T14:41:22.651+05:30  INFO 20880 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 881 ms
+2023-04-07T14:41:22.945+05:30  INFO 20880 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-04-07T14:41:22.954+05:30  INFO 20880 --- [main] com.example.backend.CVMakerApplication   : Started CVMakerApplication in 1.596 seconds (process running for 2.108)
+2023-04-07T14:41:31.473+05:30  INFO 20880 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-07T14:41:31.473+05:30  INFO 20880 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-07T14:41:31.473+05:30  INFO 20880 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-04-07T14:42:04.637+05:30  INFO 9708 --- [main] com.example.backend.CVMakerApplication   : Starting CVMakerApplication using Java 19.0.1 with PID 9708 (D:\Projects\cv-maker\target\classes started by shubh in D:\Projects\cv-maker)
+2023-04-07T14:42:04.640+05:30  INFO 9708 --- [main] com.example.backend.CVMakerApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-07T14:42:05.499+05:30  INFO 9708 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-04-07T14:42:05.508+05:30  INFO 9708 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-07T14:42:05.508+05:30  INFO 9708 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-04-07T14:42:05.578+05:30  INFO 9708 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-07T14:42:05.578+05:30  INFO 9708 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 885 ms
+2023-04-07T14:42:05.845+05:30  INFO 9708 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-04-07T14:42:05.854+05:30  INFO 9708 --- [main] com.example.backend.CVMakerApplication   : Started CVMakerApplication in 1.565 seconds (process running for 2.078)
+2023-04-07T14:42:10.313+05:30  INFO 9708 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-07T14:42:10.313+05:30  INFO 9708 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-07T14:42:10.314+05:30  INFO 9708 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-04-07T14:42:10.427+05:30  INFO 9708 --- [http-nio-8081-exec-1] c.e.b.controller.CVMakerController       : Creating CV based on rquest: User(firstName=Shubham, lastName=Sharma, designation=Senior Software Engineer (4 years Exp.), currentCompany=JP Morgan Chase, yearsOfExperience=August 2021- September 2021, email=shubhamsharma5170@gmail.com, mobile=9828886157, linkedInUrl=, projectsWorkedUpon=[com.example.backend.model.Project@1d8d8c32, com.example.backend.model.Project@111bbc3d, com.example.backend.model.Project@2b71ac2d, com.example.backend.model.Project@513fc355, com.example.backend.model.Project@20a2295c], educationalDetails=[com.example.backend.model.Education@6c149321, com.example.backend.model.Education@4a225a4a, com.example.backend.model.Education@65280d30], listOfCertifications=[com.example.backend.model.Certification@54713000, com.example.backend.model.Certification@1cb42c34, com.example.backend.model.Certification@449cd5e2], skills=[com.example.backend.model.Skill@617801cc, com.example.backend.model.Skill@3c54ccd3, com.example.backend.model.Skill@13c82e1, com.example.backend.model.Skill@232d74e1, com.example.backend.model.Skill@2fa6729, com.example.backend.model.Skill@18d211f1, com.example.backend.model.Skill@7d1ca380, com.example.backend.model.Skill@35de5abe, com.example.backend.model.Skill@644cb003, com.example.backend.model.Skill@6c1978e2, com.example.backend.model.Skill@7481d642, com.example.backend.model.Skill@334d69c6], hobbies=[])
+2023-04-07T14:42:13.524+05:30  INFO 9708 --- [http-nio-8081-exec-1] c.e.b.controller.CVMakerController       : Created CV successfully
+2023-04-07T14:43:16.793+05:30  INFO 24364 --- [main] com.example.backend.CVMakerApplication   : Starting CVMakerApplication using Java 19.0.1 with PID 24364 (D:\Projects\cv-maker\target\classes started by shubh in D:\Projects\cv-maker)
+2023-04-07T14:43:16.795+05:30  INFO 24364 --- [main] com.example.backend.CVMakerApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-07T14:43:17.629+05:30  INFO 24364 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-04-07T14:43:17.637+05:30  INFO 24364 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-07T14:43:17.638+05:30  INFO 24364 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-04-07T14:43:17.712+05:30  INFO 24364 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-07T14:43:17.713+05:30  INFO 24364 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 868 ms
+2023-04-07T14:43:17.997+05:30  INFO 24364 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-04-07T14:43:18.003+05:30  INFO 24364 --- [main] com.example.backend.CVMakerApplication   : Started CVMakerApplication in 1.539 seconds (process running for 2.066)
+2023-04-07T14:43:20.890+05:30  INFO 24364 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-07T14:43:20.891+05:30  INFO 24364 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-07T14:43:20.892+05:30  INFO 24364 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-07T14:43:21.025+05:30  INFO 24364 --- [http-nio-8081-exec-1] c.e.b.controller.CVMakerController       : Creating CV based on rquest: User(firstName=Shubham, lastName=Sharma, designation=Senior Software Engineer (4 years Exp.), currentCompany=JP Morgan Chase, yearsOfExperience=August 2021- September 2021, email=shubhamsharma5170@gmail.com, mobile=9828886157, linkedInUrl=, projectsWorkedUpon=[com.example.backend.model.Project@13d8ab05, com.example.backend.model.Project@6210021, com.example.backend.model.Project@4ee58c80, com.example.backend.model.Project@762d56c0, com.example.backend.model.Project@20fb5b83], educationalDetails=[com.example.backend.model.Education@2e5577b5, com.example.backend.model.Education@4c366f73, com.example.backend.model.Education@50b1ab63], listOfCertifications=[com.example.backend.model.Certification@2a6cc5b5, com.example.backend.model.Certification@2f81e792, com.example.backend.model.Certification@503348e6], skills=[com.example.backend.model.Skill@d041b30, com.example.backend.model.Skill@41892648, com.example.backend.model.Skill@6194e49c, com.example.backend.model.Skill@2b2af430, com.example.backend.model.Skill@65ab7fe, com.example.backend.model.Skill@ee97a1b, com.example.backend.model.Skill@481fdf5e, com.example.backend.model.Skill@34e83919, com.example.backend.model.Skill@675e8d3d, com.example.backend.model.Skill@22a20a6f, com.example.backend.model.Skill@1471c44a, com.example.backend.model.Skill@61a4172c], hobbies=[])
+2023-04-07T14:43:23.979+05:30  INFO 24364 --- [http-nio-8081-exec-1] c.e.b.controller.CVMakerController       : Created CV successfully
+2023-04-07T14:44:35.253+05:30  INFO 9008 --- [main] com.example.backend.CVMakerApplication   : Starting CVMakerApplication using Java 19.0.1 with PID 9008 (D:\Projects\cv-maker\target\classes started by shubh in D:\Projects\cv-maker)
+2023-04-07T14:44:35.255+05:30  INFO 9008 --- [main] com.example.backend.CVMakerApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-07T14:44:36.125+05:30  INFO 9008 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-04-07T14:44:36.133+05:30  INFO 9008 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-07T14:44:36.133+05:30  INFO 9008 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-04-07T14:44:36.207+05:30  INFO 9008 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-07T14:44:36.207+05:30  INFO 9008 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 905 ms
+2023-04-07T14:44:36.522+05:30  INFO 9008 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-04-07T14:44:36.529+05:30  INFO 9008 --- [main] com.example.backend.CVMakerApplication   : Started CVMakerApplication in 1.606 seconds (process running for 2.112)
+2023-04-07T14:44:55.061+05:30  INFO 9008 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-07T14:44:55.061+05:30  INFO 9008 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-07T14:44:55.061+05:30  INFO 9008 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-04-07T14:46:29.082+05:30  INFO 21208 --- [main] com.example.backend.CVMakerApplication   : Starting CVMakerApplication using Java 19.0.1 with PID 21208 (D:\Projects\cv-maker\target\classes started by shubh in D:\Projects\cv-maker)
+2023-04-07T14:46:29.084+05:30  INFO 21208 --- [main] com.example.backend.CVMakerApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-07T14:46:29.981+05:30  INFO 21208 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-04-07T14:46:29.988+05:30  INFO 21208 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-07T14:46:29.989+05:30  INFO 21208 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-04-07T14:46:30.071+05:30  INFO 21208 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-07T14:46:30.072+05:30  INFO 21208 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 941 ms
+2023-04-07T14:46:30.372+05:30  INFO 21208 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-04-07T14:46:30.380+05:30  INFO 21208 --- [main] com.example.backend.CVMakerApplication   : Started CVMakerApplication in 1.618 seconds (process running for 2.137)
+2023-04-07T14:46:44.201+05:30  INFO 21208 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-07T14:46:44.201+05:30  INFO 21208 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-07T14:46:44.202+05:30  INFO 21208 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-07T14:47:18.926+05:30  INFO 6400 --- [main] com.example.backend.CVMakerApplication   : Starting CVMakerApplication using Java 19.0.1 with PID 6400 (D:\Projects\cv-maker\target\classes started by shubh in D:\Projects\cv-maker)
+2023-04-07T14:47:18.928+05:30  INFO 6400 --- [main] com.example.backend.CVMakerApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-07T14:47:19.779+05:30  INFO 6400 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-04-07T14:47:19.787+05:30  INFO 6400 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-07T14:47:19.787+05:30  INFO 6400 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-04-07T14:47:19.861+05:30  INFO 6400 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-07T14:47:19.861+05:30  INFO 6400 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 875 ms
+2023-04-07T14:47:20.141+05:30  INFO 6400 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-04-07T14:47:20.149+05:30  INFO 6400 --- [main] com.example.backend.CVMakerApplication   : Started CVMakerApplication in 1.545 seconds (process running for 2.085)
+2023-04-07T14:47:25.738+05:30  INFO 6400 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-07T14:47:25.738+05:30  INFO 6400 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-07T14:47:25.738+05:30  INFO 6400 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-04-07T14:47:25.846+05:30  INFO 6400 --- [http-nio-8081-exec-2] c.e.b.controller.CVMakerController       : Creating CV based on rquest: User(firstName=null, lastName=null, designation=null, currentCompany=null, yearsOfExperience=null, email=null, mobile=null, linkedInUrl=null, projectsWorkedUpon=null, educationalDetails=null, listOfCertifications=null, skills=null, hobbies=null)
+2023-04-07T14:47:25.882+05:30 ERROR 6400 --- [http-nio-8081-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.jsoup.helper.ValidationException: Object must not be null] with root cause
+
+org.jsoup.helper.ValidationException: Object must not be null
+	at org.jsoup.nodes.Element.text(Element.java:1450)
+	at com.example.backend.util.UpdateHTMLFile.updateProjectsInCV(UpdateHTMLFile.java:26)
+	at com.example.backend.controller.CVMakerController.createCV(CVMakerController.java:26)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1010)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:913)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:884)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+
+2023-04-07T14:48:13.110+05:30  WARN 6400 --- [http-nio-8081-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<java.lang.String> com.example.backend.controller.CVMakerController.createCV(com.example.backend.model.User) throws java.lang.Exception]
+2023-04-07T14:48:32.290+05:30  WARN 6400 --- [http-nio-8081-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.ArrayList<com.example.backend.model.Project>` from Object value (token `JsonToken.START_OBJECT`)]
+2023-04-07T14:49:07.680+05:30  WARN 6400 --- [http-nio-8081-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.ArrayList<com.example.backend.model.Project>` from Object value (token `JsonToken.START_OBJECT`)]
+2023-04-07T14:50:26.646+05:30  INFO 20832 --- [main] com.example.backend.CVMakerApplication   : Starting CVMakerApplication using Java 19.0.1 with PID 20832 (D:\Projects\cv-maker\target\classes started by shubh in D:\Projects\cv-maker)
+2023-04-07T14:50:26.649+05:30  INFO 20832 --- [main] com.example.backend.CVMakerApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-07T14:50:27.543+05:30  INFO 20832 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-04-07T14:50:27.551+05:30  INFO 20832 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-07T14:50:27.552+05:30  INFO 20832 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-04-07T14:50:27.620+05:30  INFO 20832 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-07T14:50:27.620+05:30  INFO 20832 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 924 ms
+2023-04-07T14:50:27.891+05:30  INFO 20832 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-04-07T14:50:27.902+05:30  INFO 20832 --- [main] com.example.backend.CVMakerApplication   : Started CVMakerApplication in 1.579 seconds (process running for 2.093)
+2023-04-07T14:50:34.369+05:30  INFO 11468 --- [main] com.example.backend.CVMakerApplication   : Starting CVMakerApplication using Java 19.0.1 with PID 11468 (D:\Projects\cv-maker\target\classes started by shubh in D:\Projects\cv-maker)
+2023-04-07T14:50:34.371+05:30  INFO 11468 --- [main] com.example.backend.CVMakerApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-07T14:50:35.249+05:30  INFO 11468 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-04-07T14:50:35.257+05:30  INFO 11468 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-07T14:50:35.257+05:30  INFO 11468 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-04-07T14:50:35.337+05:30  INFO 11468 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-07T14:50:35.337+05:30  INFO 11468 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 919 ms
+2023-04-07T14:50:35.646+05:30  INFO 11468 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-04-07T14:50:35.653+05:30  INFO 11468 --- [main] com.example.backend.CVMakerApplication   : Started CVMakerApplication in 1.693 seconds (process running for 2.258)
